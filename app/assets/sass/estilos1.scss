@@ -1,0 +1,163 @@
+// $negro:#292522;
+$negro:#292522;
+body{
+    background: #CAC7C0 !important;
+    transition: .3s ease all;
+    &.dark{
+        background:$negro  !important;
+    }
+    // &.video{
+    //     background: url(/assets/video/video-fondo.mp4) !important;
+    // }
+    &.active2{
+        background-color: #CAC7C0  !important;
+    }
+}
+.switch{
+    // background: #666666; 
+    background: url(/assets/images/switch.png);
+    background-repeat: no-repeat;
+    border-radius: 1000px;
+    // width: 100%;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none !important;
+    margin: -5px 4px 0px 15px;
+    // margin-left: 15px;
+    // color: white;
+    &::after{
+        // content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        // background: rgba(171, 171, 175, 0.384);
+        background: #6666661f;
+        top: 0;
+        left: 0;
+        // right: unset;
+        border-radius: 100px;
+        transition: .3s ease all;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0,0, .2);
+       
+    }
+    &.active{
+        background: url(/assets/images/switchD.png);
+        background-repeat: no-repeat;
+        border-radius: 1000px;
+        // width: 100%;
+         border: none;
+         position: relative;
+        // background: rgba(6, 6, 27, 0.534);
+        // background: #F1F7FB;
+        // background: #F1F7FB;
+        // color:white; 
+
+        
+        // color: #000; 
+        &::after{
+            right: 0;
+            // left: unset;
+            border-radius: 100px;
+           
+        }
+    }
+    span{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: block;
+        background: none;
+        // color: #fff;
+
+    }
+}
+
+.gotas{
+    background-image: url(/assets/images/gota.png) !important;
+    background-repeat: no-repeat;
+    // background: #666666;
+    // width: 71%;
+    // height: 23%;
+    width: 30px;
+    height: 30px;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none !important;
+    // margin-left: 10px;
+    margin: -4px 25px 0px 5px;
+    // margin: 4px 15px 0px 15px;
+    
+   
+}
+.active1{
+    background: #F1F7FB;
+  }
+  .active2{
+    background-image: url(/assets/images/gota2.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    // background: #666666;
+    width: 30px;
+    height: 30px;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    // margin-left: 10px;
+    margin: 0px 25px 0px 5px;
+    // margin: 4px 15px 0px 15px;
+  }
+.tagPrice{
+    color: white !important;
+}
+ .tagPrice1{
+     color: white ;
+     margin-top: 5px;
+ }
+.tagPrice2{
+    color: #999999 !important;
+}
+.tagHour{
+    color: #999999;
+	text-align: right;
+	font-size: 16px;
+	font-family: 'HelveticaNeueLTStd-Md' !important;
+	position: relative;
+	left: -1.6%;
+	top:-3.5%;
+}
+  #video_background {
+      display: none;
+ &.video-fondo{
+     display: block;
+position: absolute;
+ bottom: 0px;
+ right: 0px;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ //height: 100%;
+// height: 100vh;
+ z-index: -1000;
+ overflow: hidden;
+ }
+}
+ #video_pattern {
+ background:#fff;
+ position: fixed;
+ opacity: 0.8;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+//  height: 100vh;
+ height: 100%;
+ z-index: 1;
+ } 

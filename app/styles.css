@@ -1,0 +1,430 @@
+@font-face
+{
+	font-family: HelveticaNeueLTStd-Bd;
+	font-weight: Bold;
+    src: url("fonts/HelveticaNeueBold.ttf") format("opentype");
+}
+
+@font-face
+{
+    font-family: FutureBold;
+    font-weight: Bold;
+    src: url("fonts/FuturaStdBold.ttf") format("opentype");
+} 
+@font-face
+{
+    font-family: HelveticaNeueLTStd-Md;
+    font-weight: Medium;
+    src: url("fonts/HelveticaNeueMedium.ttf") format("opentype");
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+.text-bottom {
+    font-weight: 700;
+    font-size: 17px;
+    color: #cccccc;
+	font-family: 'FutureBold' !important;
+}
+
+.text-header-color {
+    color: #e4e4e4;
+	font-size: 14px;
+	    margin-right: 10px;
+}
+
+.fa-times-circle {
+    color: #fff;
+    font-size: 20px;
+}
+
+.close {
+    float: none !important;
+    padding: 1rem 0rem !important;
+    opacity: inherit !important;
+}
+
+.modal-content {
+    background: #009bd4;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: 0 !important;
+    background: #808080;
+}
+
+.modal-footer {
+    border-top: 0 !important;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #009bd4!important;
+    font-weight: 600;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #009bd4!important;
+    opacity: 1;
+    font-weight: 600;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #009bd4!important;
+    opacity: 1;
+    font-weight: 600;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #009bd4!important;
+    font-weight: 600;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #009bd4!important;
+    font-weight: 600;
+}
+
+::placeholder {
+    /* Most modern browsers support this now. */
+    color: #009bd4!important;
+    font-weight: 600;
+}
+
+
+/* ESCRITORIO GRANDE (LG revisamos en 1366px en adelante) */
+
+@media(min-width:1200px) {
+    .topModal {
+        position: absolute;
+        top: -50px;
+        right: 0;
+    }
+    .modal-dialog {
+        width: 100%;
+        max-width: 700px;
+    }
+    .title {
+        color: #fff;
+        font-size: 60px;
+        font-weight: 700;
+        padding: 0px 20px;
+					font-family: 'HelveticaNeueLTStd-Bd' !important;
+    }
+    .title1 {
+        color: #fff;
+        font-size: 45px;
+        font-weight: 700;
+        padding: 0px 20px;
+					font-family: 'HelveticaNeueLTStd-Bd' !important;
+					margin-left: -20px;
+    }
+    .boxGreen {
+        background: #00cc33;
+        width: 80%;
+					    margin: 0 0 -10px 0;
+    }
+    .boxGreen1 {
+        background: #00cc33;
+        width: 80%;
+					    margin: 0 0 35px 0;
+    }
+    .boxText {
+        color: #fff;
+        font-size: 25px;
+        padding: 5px 22px;
+        font-weight: 600;
+    }
+    .textBoxBottom {
+        color: #003aed;
+        font-weight: 600;
+        font-size: 18px;
+        padding-left: 30px;
+        margin-top: 20px;
+					    margin: 20px 0 2px;					
+					font-family: 'HelveticaNeueLTStd-Md' !important;
+    }
+    .boxInput {
+        height: 50px;
+        border-radius: 0px !important;
+        border: 1px solid #009bd4;
+        padding: 25px;
+        font-size: 20px;
+    }
+    .btnBox {
+        width: 250px;
+        background: #03289c;
+        color: #f7f7f7;
+        font-weight: 700;
+        font-size: 25px;
+        padding: 12px;
+        margin-top: -5px;
+        border-radius: 5px!important;
+					font-family: 'HelveticaNeueLTStd-Bd' !important;
+    }.btnBox:hover { color: #99CCFF; }
+    .pbottomBox {
+        margin-right: 30px;
+        color: #f7f7f7;
+        margin-top: 6px;
+					   font-size: 15px;
+    }
+    .bottomModal {
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .modal-content {
+        height: 410px;
+					
+    }
+	
+}
+
+
+/* ESCRITORIO MEDIANO O TALBET HORIZONTAL (MD revisamos en 1024px)*/
+
+@media (max-width:1199px) and (min-width:992px) {
+    .topModal {
+        position: absolute;
+        top: -50px;
+        right: 0;
+    }
+    .modal-dialog {
+        width: 100%;
+        max-width: 700px;
+    }
+    .title {
+        color: #fff;
+        font-size: 60px;
+        font-weight: 700;
+        padding: 0px 20px;
+					font-family: 'HelveticaNeueLTStd-Bd' !important;
+    }
+    .title1 {
+        color: #fff;
+        font-size: 45px;
+        font-weight: 700;
+        padding: 0px 20px;
+					font-family: 'HelveticaNeueLTStd-Bd' !important;
+					margin-left: -20px;
+    }
+    .boxGreen {
+        background: #00cc33;
+        width: 80%;
+					    margin: 0 0 -10px 0;
+    }
+    .boxGreen1 {
+        background: #00cc33;
+        width: 80%;
+					    margin: 0 0 35px 0;
+    }
+    .boxText {
+        color: #fff;
+        font-size: 25px;
+        padding: 5px 22px;
+        font-weight: 600;
+    }
+    .textBoxBottom {
+        color: #003aed;
+        font-weight: 600;
+        font-size: 18px;
+        padding-left: 30px;
+					font-family: 'HelveticaNeueLTStd-Md' !important;
+    }
+    .boxInput {
+        height: 50px;
+        border-radius: 0px !important;
+        border: 1px solid #009bd4;
+        padding: 25px;
+        font-size: 20px;
+    }
+    .btnBox {
+        width: 250px;
+        background: #03289c;
+        color: #f7f7f7;
+        font-weight: 700;
+        font-size: 25px;
+        padding: 12px;
+        margin-top: -5px;
+        border-radius: 5px!important;
+					font-family: 'HelveticaNeueLTStd-Bd' !important;
+    }
+    .pbottomBox {
+        margin-right: 30px;
+        color: #f7f7f7;
+        margin-top: 6px;
+    }
+    .bottomModal {
+        margin-top: 5px;
+        left: 50px;
+    }
+    .modal-content {
+        height: 380px;
+    }
+}
+
+
+/* ESCRITORIO PEQUEÑO O TALBET VERTICAL (SM revisamos en 768px)*/
+
+@media (max-width:991px) and (min-width:768px) {
+    .topModal {
+        position: absolute;
+        top: -50px;
+        right: 0;
+    }
+    .title {
+        color: #fff;
+        font-size: 50px;
+        font-weight: 700;
+        padding: 0px 20px;
+					font-family: 'HelveticaNeueLTStd-Bd' !important;
+    }
+    .title1 {
+        color: #fff;
+        font-size: 35px;
+        font-weight: 700;
+        padding: 0px 20px;
+					font-family: 'HelveticaNeueLTStd-Bd' !important;
+					margin-left: -20px;
+    }
+    .boxGreen {
+        background: #00cc33;
+        width: 90%;
+					    margin: 0 0 -10px 0;
+    }
+    .boxGreen1 {
+        background: #00cc33;
+        width: 90%;
+					    margin: 0 0 35px 0;
+    }
+    .boxText {
+        color: #fff;
+        font-size: 21px;
+        padding: 3px 12px;
+        font-weight: 600;
+    }
+    .textBoxBottom {
+        color: #003aed;
+        font-weight: 600;
+        font-size: 18px;
+        padding-left: 40px;
+					font-family: 'HelveticaNeueLTStd-Md' !important;
+    }
+    .boxInput {
+        height: 45px;
+        border-radius: 0px !important;
+        border: 1px solid #009bd4;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .btnBox {
+        width: 160px;
+        background: #03289c;
+        color: #f7f7f7;
+        font-weight: 700;
+        font-size: 20px;
+        padding: 10px;
+        margin-top: -4px;
+        border-radius: 5px!important;
+					font-family: 'HelveticaNeueLTStd-Bd' !important;
+    }
+    .pbottomBox {
+        margin-right: 30px;
+        color: #f7f7f7;
+        margin-top: 6px;
+					font-size: 15px;
+    }
+    .bottomModal {
+        margin-top: 20px;
+        left: 50px;
+    }
+    .modal-content {
+        height: 350px;
+    }
+}
+
+
+/* MOVIL (XS revisamos en 320px)*/
+
+@media (max-width:767px) {
+    .topModal {
+        position: absolute;
+        top: -50px;
+        right: 0;
+    }
+    .title {
+        color: #fff;
+        font-size: 35px;
+        font-weight: 700;
+					font-family: 'HelveticaNeueLTStd-Bd' !important;
+    }
+    .title1 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0px 20px;
+					font-family: 'HelveticaNeueLTStd-Bd' !important;
+					margin-left: -20px;
+    }
+    .boxGreen {
+        background: #00cc33;
+        width: 100%;
+					    margin: 0 0 -10px 0;
+    }
+    .boxGreen1 {
+        background: #00cc33;
+        width: 100%;
+					    margin: 0 0 35px 0;
+    }
+    .boxText {
+        color: #fff;
+        font-size: 16px;
+        padding: 1px 2px;
+        font-weight: 600;
+    }
+    .textBoxBottom {
+        color: #003aed;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 0px;
+        text-align: left;
+					font-family: 'HelveticaNeueLTStd-Md' !important;
+    }
+    .boxInput {
+        height: 35px;
+        border-radius: 0px !important;
+        border: 1px solid #009bd4;
+        padding: 5px;
+        font-size: 15px;    }
+    .btnBox {
+        width: 90px;
+        background: #03289c;
+        color: #f7f7f7;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 7px;
+        margin-top: -3px;
+        border-radius: 5px!important;
+					font-family: 'HelveticaNeueLTStd-Bd' !important;
+    }
+    .pbottomBox {
+        margin-right: 30px;
+        color: #f7f7f7;
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    .bottomModal {
+        margin-top: 25px;
+        left: 10%;
+    }
+    .modal-content {
+        height: 300px;
+    }
+}

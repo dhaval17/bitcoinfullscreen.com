@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style1.css">
+  <link rel="stylesheet" href="assets/sass/estilos1.css">
+			
+<link  rel="icon"   href="assets/images/favicon_bitcoin.ico" type="image/ico" />
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+			<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/css/level1.css" media="none" id="pulseone">
+  <link rel="stylesheet" href="assets/css/level2.css" media="none" id="pulsetwo">
+  <link rel="stylesheet" href="assets/css/level3.css" media="none" id="pulsethree">
+  <link rel="stylesheet" href="assets/css/level4.css" media="none" id="pulsefour">
+  <link rel="stylesheet" href="assets/css/level5.css" media="none" id="pulsefive">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169600507-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169600507-1');
+</script>
+    <!-- fontawesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+			
+
+    <title>Bitcoin Fullscreen</title>
+  </head>
+  <style type="text/css">
+
+
+
+  /* #video_background {
+ position: absolute;
+ bottom: 0px;
+ right: 0px;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ z-index: -1000;
+ overflow: hidden;
+ }
+ #video_pattern {
+ background:#fff;
+ position: fixed;
+ opacity: 0.8;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 1;
+ } */
+  </style>
+  <body >
+
+
+    <div id="mySidebar" class="left-panel">
+
+
+        <div class="menuContent">
+        <div class="">
+          <div onclick="closeNav()" href="javascript:void(0)"><i class="fas fa-times-circle closebtn"></i></div>
+          <h2 class="titulo-sidebar" style="font-family: 'FutureBold' !important;">Bitcoin fullscreen</h2>
+        </div>
+        <div class="">
+          <h1 class="read"><a href="https://medium.com/@benadon/www-bitcoinfullscreen-com-2dc168c1790c" style="color: white;">Read me...</a></h1>
+        </div>
+
+
+          <div class="fixedBottom">
+          <a   href="http://cripto247.com/" target="_blank"  >
+          <img id="logo1" src="assets/images/logo.png" class="logo-sidebar"  style="display: block;">
+          </a>
+
+
+          <p class="pMenuContent">BITCOIN FULLSCREEN © 2020. ALL RIGHTS RESERVED.</p>
+          <p class="pMenuContent">DESIGNED WITH ♥ IN BUENOS AIRES</p>
+          <a  href="mailto:hello@bitcoinfullscreen.com" class="link-contact">hello@bitcoinfullscreen.com</a>
+
+
+        </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- <div class="left-panel" id="mySidebar">
+      <div class="row">
+      <div class="col-md-12">
+        <h2 class="titulo-sidebar">Bitcoin fullscreen</h2>
+      </div>
+      <div class="col-md-12">
+        <h1 class="read">Read me...</h1>
+      </div>
+      <div class="col-md-12 col-sm-12 ">
+        <a   href="http://cripto247.com/" target="_blank"  >
+        <img id="logo1" src="assets/images/logo.png" class="logo-sidebar"  style="display: block;">
+        </a>
+      </div>
+      <div class="col-md-12 col-sm-12 bit-sidebar">
+        <div>BITCOIN FULLSCREEN © 2020. ALL RIGHTS RESERVED.</div>
+        <div>DESIGNED WITH ♥ IN BUENOS AIRES</div>
+      </div>
+
+      <div class="col-md-12  col-sm-12 contact-sidebar">
+        <a  href="mailto:hello@bitcoinfullscreen.com" class="link-contact">HELLO@BITCOINFULLSCREEN.COM</a>
+      </div>
+      </div>
+
+
+
+    <!-- <ul>
+    <a href=""><li>devcode</li></a>
+    <a href=""><li>cursos</li></a>
+    <a href=""><li>blog</li></a>
+    </ul> -->
+    <!-- </div> -->
+
+
+
+    <video id="video_background" autoplay loop muted playsinline class="video-background">
+   <source src="/assets/video/video-fondo.mp4" type="video/mp4" />
+  </video>
+  <div class="container-fluid mt-5">
+
+  	<div id="navigation">
+  		<ul  class="nav">
+		  <li class="nav-item">
+		    <a id="titulo" class="nav-link title-logo titulo" href="#">Bitcoin fullscreen</a>
+		  </li>
+		  <li class="nav-item">
+		    <a id="navi1" class="nav-link currency-tag active tagPrice1" href="#" data-currency="USD">USD</a>
+		  </li>
+		  <li class="nav-item">
+		    <a id="navi2" class="nav-link currency-tag tagPrice1" href="#" data-currency="EUR">EUR</a>
+		  </li>
+		  <li class="nav-item">
+		    <a id="navi3" id="navi1" class="nav-link currency-tag tagPrice1" href="#" data-currency="ARS">ARS</a>
+		  </li>
+		  <li class="nav-item">
+		    <a id="navi4" class="nav-link currency-tag tagPrice1" href="#" data-currency="BRL">BRL</a>
+		  </li>
+		  <li class="nav-item">
+		    <a id="navi5" class="nav-link currency-tag tagPrice1" href="#" data-currency="INR">INR</a>
+		  </li>
+		  <li class="nav-item">
+		    <a id="navi6" class="nav-link currency-tag tagPrice1" href="#" data-currency="JPY">JPY</a>
+		  </li>
+		  <li class="nav-item">
+		    <a id="navi7" class="nav-link currency-tag tagPrice1" href="#" data-currency="CNY">CNY</a>
+		  </li>
+		  <li class="nav-item">
+		    <a id="navi8" class="nav-link currency-tag tagPrice1" href="#" data-currency="RUB">RUB</a>
+		  </li>
+      <li class="nav-item botones">
+        <button class="switch" id="switch">
+          <span><i class=""></i></span>
+          <span> <i class=""></i></span>
+        </button>
+      </li>
+      <li class="nav-item">
+        <button  class="gotas" id="gotas">
+          <!-- <span><i class="fas fa-tint"></i></span> -->
+          <span><i class=""></i></span>
+        </button>
+
+      </li>
+		  <li class="nav-item ml-auto ">
+		    <a class="nav-link market-info"><p id="currency-sym" class="currency-sym">BTCUSD</p></a>
+		  </li>
+		</ul>
+    </div>
+
+    <div class="row mt-2">
+    <div class="col-md-12">
+    <h2 class="counter-text counterColor" id="price"></h2>
+  	<h2 class="counter-text-change" id="tfdiff"></h2>
+  	<h3 class="counter-text-hour" id="hour">24 HOURS</h3>
+
+    </div>
+
+    <div id="main">
+    <div onclick="openNav()"><i class="fas fa-bars"></i></div>
+    </div>
+
+
+
+
+      <!-- <input type="checkbox" class="checkbox" id="check">
+      <label class="menu " for="check"><i class="fas fa-bars"></i></label> -->
+
+
+
+
+
+
+      <!-- <div class="col-md-12 ">
+      <div class="fixed-bottom mb-2  mx-auto">
+    <div class="row mb-2 logo-footer">
+      <div class="col-md-12 col-sm-12">
+        <a   href="http://cripto247.com/" target="_blank" class="logo" >
+        <img id="logo1" src="assets/images/logo.png" class="logo-icon"  style="display: block;">
+        <img id="logo2" src="assets/images/logo2.png" class="logo-icon" style="display: none;">
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6 col-sm-12">
+        <div id="bitcoin" class="footer-text">BITCOIN FULLSCREEN © 2020. ALL RIGHTS RESERVED.</div>
+        <div id="desinged" class="footer-text">DESIGNED WITH ♥ IN BUENOS AIRES</div>
+      </div>
+
+      <div class="col-md-6 contact-link col-sm-12">
+        <a id="link-contact" href="mailto:hello@bitcoinfullscreen.com" class="link-contact">HELLO@BITCOINFULLSCREEN.COM</a>
+      </div>
+
+    </div>
+
+  </div>
+</div> -->
+
+<div class="modal fade hide" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"  style=" background: rgba(60, 59, 57, 0.83); ">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+
+
+
+            <div class="modal-content">
+
+                <div class="topModal">
+                    <span class="text-header-color">Please, give us your email</span>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="fas fa-times-circle"></i>
+                        </button>
+                </div>
+
+                <div class="modal-body ml-1 mr-1">
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <h1 class="title">Hey, you! <small class="title1">(Yes. You.)</small></h1>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="boxGreen">
+                                <p class="boxText">Skip the FOMO. Stay in the loop.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-1">
+                            <div class="boxGreen1">
+                                <p class="boxText">Give us your email. Get rid of this popup.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-1">
+                            <p class="textBoxBottom">Never spam. Quality content only.</p>
+                        </div>
+
+
+                        <div class="col-md-12">
+                            <div class="input-group">
+                                <input type="text" id="emailValue" class="form-control boxInput" placeholder="Your email, please" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btnBox" type="button" id="submitEmail">Whatever</button>
+                                </div>
+                            </div>
+                            <p class="text-right pbottomBox">I want to get rid this popup</p>
+                        </div>
+
+                    </div>
+
+                    <div class="bottomModal">
+                        <span class="text-bottom">Bitcoin fullscreen</span>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+  </div>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/mod-dark.js"></script>
+    <script>
+//  $(document).ready(function()
+//  {
+//    // id de nuestro modal
+//    //$("#exampleModal").modal("show");
+//
+//    $('#exampleModal').modal({
+//    show: false,
+//    backdrop: 'static',
+//    keyboard: false
+//  })
+//
+//  });
+
+// $('#exampleModal').modal({backdrop: 'static', keyboard: false})  
+    function openNav() {
+      $("#mySidebar").addClass('menuLeft');
+      $("#main").css('display','none');
+    }
+
+    function closeNav() {
+      $("#mySidebar").removeClass('menuLeft');
+      $("#main").css('display','block');
+    }
+
+
+      $(function() {
+  var screenWidth = $(window).width();
+  if (screenWidth >= 800) {
+    $('#video_background').attr('autoplay', 'autoplay');
+  }
+});
+
+$('.menu-bar').on('click', function() {
+	$('.contenido').toggleClass('abrir');
+});
+
+function fallback(video)
+{
+  var img = video.querySelector('img');
+  if (img)
+    video.parentNode.replaceChild(img, video);
+}
+    </script>
+  </body>
+</html>
